@@ -7,8 +7,8 @@ node_js:
 install:
   - npm install
 branches:
-  except:
-    - /^v(\d+\.){2}\d+$/
+  only:
+    - master
 script:
   - npm run build
 after_script:
