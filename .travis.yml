@@ -8,3 +8,6 @@ install:
   - npm install
 build:
   - npm run build
+after_build:
+  - npm run release
+  - git push --follow-tags origin master
