@@ -16,8 +16,6 @@ after_script:
   - git config --global user.name 'Travis CI'
   - git remote add origin-push https://${GH_TOKEN}@github.com/edli/travis-sandbox.git
   - git fetch origin-push
-  - git checkout -b temp
-  - git branch -u origin-push/master
   - npm run release
   - git push --follow-tags origin-push HEAD:master
 env:
