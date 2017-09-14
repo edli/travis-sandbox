@@ -6,8 +6,13 @@ node_js:
   - '8'
 install:
   - npm install
+branches:
+  except:
+    - /^v(\d+\.){2}\d+$/
 script:
   - npm run build
 after_script:
   - npm run release
+  - git config --global user.email 'builds@travis-ci.org'
+  - git config --global user.name 'Travis CI'
   - git push --follow-tags origin master
