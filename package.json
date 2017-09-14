@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clear": "rm -rf dist",
-    "build": "npm run clear && && mkdir test && echo 'BUILT!!!'"
+    "build": "npm run clear && && mkdir test && echo 'BUILT!!!'",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/edli/travis-sandbox/issues"
   },
-  "homepage": "https://github.com/edli/travis-sandbox#readme"
+  "homepage": "https://github.com/edli/travis-sandbox#readme",
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  }
 }
