@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clear": "rm -rf dist",
-    "build": "npm run clear && && mkdir test && echo 'BUILT!!!'",
-    "test": "echo 'PASSED'",
+    "build": "echo 'PROJECT BUILT!'",
+    "test": "echo 'ALL TESTS PASSED!'",
     "release": "standard-version"
   },
   "repository": {
