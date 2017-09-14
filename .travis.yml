@@ -14,6 +14,7 @@ script:
 after_script:
   - git status
   - npm run release
+  - git log --graph --date=short -n 3
   - git config --global user.email 'builds@travis-ci.org'
   - git config --global user.name 'Travis CI'
   - git remote add origin-push https://${GH_TOKEN}@github.com/edli/travis-sandbox.git
