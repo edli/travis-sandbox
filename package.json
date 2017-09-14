@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo 'PROJECT BUILT!'",
     "test": "echo 'ALL TESTS PASSED!'",
-    "release": "standard-version"
+    "release": "standard-version -m '[skip ci] chore(release): %s'"
   },
   "repository": {
     "type": "git",

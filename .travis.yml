@@ -19,9 +19,7 @@ after_script:
   - git checkout -b temp
   - git branch -u origin-push/master
   - npm run release
-  - git log --graph --date=short -n 3
   - git push --follow-tags origin-push HEAD:master
-  - git status
 env:
   global:
     secure:  qeeVmsrA2kkbzvOCdQx0Q8bu8L49n/E50wiP8sUuIybcQez/jeCWrsaGbiFfnwTGKUdDbt9Grd2U9lWc4nk4b33FsuB9bNqroEjnsJhRpJon23uvuVGa37In/IFjpc7LfMLUBxtsMAIMRnTBOpqTvqWAkmZgmPFe9nNJNI07m+mmImLE3AhMsTd6jzDCm88FwJF3fhBvZw+5p+kK5XP9dc39bl4jjEFUSjqX26NUVIOKOdGR1moFHu6fv3uX9vtLI0AMVXJfjRsNSaZdNRR32PZlUvNIl4FTv4u8LDDB3fJgYoPMYZFO25A4X83LLsITCmYIDGZe8fROhqapLIVJ6m7p1o1DXovCTqgkYs3YRHB79pq3vpYCGgn0UXlHGYu4YgiRX5IGFnpflAqcC5Cdpiq9WFTPX3kUw+7mcZDLQz2qOhBChjMrFmjmEtln6HIrKqmPypXwJeTTzyT5uUy+4MLVuLMOQG8q82DdPR0T2X3F7V1xNK1hbzr6QkXfx2yksmbv1gE+LuXPpCKZvub5VBbt69J5uBYkz2mVzs69bdRMH9myjyFM9xxfJR61KNjAi9pMgsEb3nBW3XHkgc5J1dToe71diyFby0DImtDfPQ/+oThydRSJqZmSAYhQKhUyZQvC4eTtctjwJziRXIh8+HftaWiXeMfzjGYdcBSAmWc=
