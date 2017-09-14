@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/edli/travis-sandbox/compare/v1.1.1...v1.2.0) (2017-09-14)
+
+
+### Bug Fixes
+
+* **app:** fix commit ([3e42e2f](https://github.com/edli/travis-sandbox/commit/3e42e2f))
+* **app:** fix commit ([09db099](https://github.com/edli/travis-sandbox/commit/09db099))
+
+
+### Features
+
+* **app:** feature commit ([3b2af66](https://github.com/edli/travis-sandbox/commit/3b2af66))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/edli/travis-sandbox/compare/v1.1.0...v1.1.1) (2017-09-14)
 
